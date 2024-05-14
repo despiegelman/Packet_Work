@@ -2,9 +2,11 @@ package BOX;
 
 public class BoxRunner{
     public static void main (String[]args){
-        Box boxOne = new Box(2, 6);
-        System.out.println(boxOne.getArea());
-        boxOne.bigger(2);
-        System.out.println(boxOne.getPerimeter());
+        Box delia = new Box(2.0, 6.0);
+        double area = delia.getArea();
+        System.out.println("The area is " + area);
+        delia.bigger(2);
+        double perimeter = delia.getPerimeter();
+        System.out.println("The perimeter is " + perimeter);
     }
 }
