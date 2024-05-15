@@ -1,4 +1,5 @@
 package DICE;
+
 public class DiceRunner {
     public static void main(String[]args){
         Dice d = new Dice();
